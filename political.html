@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Branching</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/stylesc.css" rel="stylesheet" type="text/css">
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.js"
+      integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+      crossorigin="anonymous"></script>
+    <script src="js/scriptsc.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h1>Are you a liberal or conservative?</h1>
+        <h4>How much do you relate to the following statements? Fill in the boxes with a number between 1 and 10. 1 is low.</h4>
+        <div class="form-group">
+          <label for="q1">I loved the Obama Presidency.</label>
+          <input type="number" class="form-control" id="q1">
+          <label for="q2">I wish we could have 4 more years of Obama.</label>
+          <input type="number" class="form-control" id="q2">
+          <label for="q3">Universal healthcare should be a basic right.</label>
+          <input type="number" class="form-control" id="q3">
+        </div>
+        <button type="submit" id="btn">Get results!</button>
+      </form>
+      <div class="moderate">
+        <p>
+          You are a moderate! You broke the mold. You are right in the middle!
+        </p>
+      </div>
+      <div class="liberal">
+        <p>
+          You are a liberal!
+        </p>
+      </div>
+      <div class="conservative">
+        <p>
+          You are a conservative!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
